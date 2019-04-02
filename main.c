@@ -16,16 +16,13 @@ int isPrime(int x){             //function definition
     for(i=2; i<=x/2; i++){      //if input value is cleanly divisible between 2 and input/2, it is not a prime number
         if(x%i == 0){
             flag = 1;           //flag becomes = 1 if number is not prime
-        }    
-        }
+        }       
+     }
         
     if (flag == 0) {            //if prime (flag = 0) print 
         printf("%d is a prime number\n", x); 
     } 
     else { 
         return 0; 
-    }     
-    
-    
-    
+    }        
 }
