@@ -24,5 +24,6 @@ int isPrime(int x){             //function definition
     } 
     else { 
         return 0; 
-    }        
+    }      
+return 0;        
 }
