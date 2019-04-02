@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// commot commit commit
 int isPrime(int x); //function prototype
 
 int main(){
