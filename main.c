@@ -12,7 +12,7 @@ int main(){
 
 
 int isPrime(int x){             //function definition 
-    int i, flag = 0, testNum;   // set flag = 0
+    int i, flag = 0;            // set flag = 0
     for(i=2; i<=x/2; i++){      //if input value is cleanly divisible between 2 and input/2, it is not a prime number
         if(x%i == 0){
             flag = 1;           //flag becomes = 1 if number is not prime
